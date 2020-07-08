@@ -1,0 +1,24 @@
+{
+  "name": "BurpStatus",
+  "keywords": "status",
+  "description": "Status handling",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/BurpTech/BurpStatus"
+  },
+  "authors":
+  [
+    {
+      "name": "Peter Halliday",
+      "email": "pghalliday@gmail.com",
+      "url": "http://pghalliday.com",
+      "maintainer": true
+    }
+  ],
+  "dependencies": [
+  ],
+  "version": "1.0.0",
+  "frameworks": "*",
+  "platforms": "*"
+}
