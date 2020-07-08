@@ -23,7 +23,7 @@ namespace Status {
             });
 
             d.it("should have the correct string representation", []() {
-                TEST_ASSERT_EQUAL_STRING("BurpTree::Status : ok", status.c_str());
+                TEST_ASSERT_EQUAL_STRING("BurpStatus::Status : ok", status.c_str());
             });
 
         });
@@ -43,7 +43,7 @@ namespace Status {
             });
 
             d.it("should have the correct string representation", []() {
-                TEST_ASSERT_EQUAL_STRING("BurpTree::Status : unknown status", status.c_str());
+                TEST_ASSERT_EQUAL_STRING("BurpStatus::Status : unknown status", status.c_str());
             });
 
         });

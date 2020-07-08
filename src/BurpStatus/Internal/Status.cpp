@@ -16,7 +16,7 @@ namespace BurpStatus {
       return _code;
     }
 
-    #define C_STR_LABEL "BurpTree::Status"
+    #define C_STR_LABEL "BurpStatus::Status"
     #define C_STR_CASE(CODE) BURP_STATUS_C_STR_CASE(C_STR_LABEL, CODE)
     #define C_STR_DEFAULT BURP_STATUS_C_STR_DEFAULT(C_STR_LABEL)
     const char * Status::c_str() const {
