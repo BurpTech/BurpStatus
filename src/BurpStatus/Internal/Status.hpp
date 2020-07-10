@@ -22,9 +22,6 @@ namespace BurpStatus {
           ok
         };
 
-        Level level;
-        Code code;
-
         void set(Level level, Code code);
         const Level getLevel() const;
         const Code getCode() const;
